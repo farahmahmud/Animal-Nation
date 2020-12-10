@@ -1,0 +1,45 @@
+:root{
+  /* colors */
+  --gainsboro: #D1DEDE;
+  --white: #FEFEFF;
+  --columbiablue: #D6EFFF;
+  --metallicseaweed: #1D8A99
+
+}
+html{
+    scroll-behavior: smooth;
+}
+.jumbotron{
+    height: 90vh;
+    background-image: url(../jumbotron.jpg);
+    background-size: cover;
+    background-position-y: center;
+    align-self: center
+}
+
+.container2{
+    text-align: center
+}
+.first-thing{
+  text-align: center;
+  color: var(--gainsboro) ;
+}
+
+
+.second-thing{ 
+  text-align: center;
+  color: var(--white) ;
+  
+}
+
+.container-images{
+  margin-top: 50px;
+}
+
+input.form-control.email{
+  color: var(--columbiablue) ;
+}
+
+#button-addon2{
+  background-color: var(--metallicseaweed)
+}
